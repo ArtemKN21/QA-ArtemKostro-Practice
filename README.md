@@ -2,16 +2,65 @@
 01/20/2026. Started to perform the Practice Manual tasks.
 To perform them, I wrote a work plan.
 
-Plan for web versions:
-1. Environment setup
-2. Write a test plan/scripts
-3. Test implementation
-4. Run tests and fix bugs
-5. Documentation and preparation for review
+1. Purpose
 
-Plan for the application:
-1. Environment setup
-2. Write a test plan/scripts
-3. Test implementation
-4. Run tests and fix bugs
-5. Documentation and preparation for review
+The purpose of this test plan is to verify the main functionality of the Huntd web and mobile applications and ensure they meet the specified requirements.
+
+2. Scope
+
+In scope:
+
+Web application (desktop & mobile browser)
+
+Mobile application (Android or iOS)
+
+Authentication (Sign Up / Sign In)
+
+Candidate and Recruiter profiles
+
+Candidate list and filters
+
+Chats
+
+Jobs and Web3 companies
+
+Profile settings
+
+Out of scope:
+
+Admin functionality
+
+Feedback forms
+
+Not implemented mobile features
+
+3. Test Types
+
+Functional testing
+
+UI testing
+
+Permission testing (unauthorized, candidate, recruiter)
+
+Smoke testing
+
+4. Test Environment
+
+Web browsers: Chrome, Firefox, Safari
+
+Mobile: Android or iOS (one platform)
+
+5. Test Deliverables
+
+Test cases in TestRail
+
+Bugs in Jira
+
+RTM
+
+Test summary report
+
+6. Entry / Exit Criteria
+
+Entry: requirements and test environment are available
+Exit: test cases executed, bugs reported, test report created
